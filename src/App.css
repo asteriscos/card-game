@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.d-flex-group{
+  display: flex;
+}
+.d-flex-item{
+  display: flex;
+}
