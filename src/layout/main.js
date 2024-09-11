@@ -7,9 +7,9 @@ export const Main = () => {
   return <div className="main">
     <h1>Card game</h1>
     <div className="main-container">
-      <div className="d-flex-group">
-        <div className="d-flex-item"><GameStatus /></div>
-        <div className="d-flex-item"><CardDeck /></div>
+      <div className="">
+        <div className=""><GameStatus /></div>
+        <div className=""><CardDeck /></div>
       </div>
     </div>
   </div>;

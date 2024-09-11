@@ -4,7 +4,6 @@ import { CARDS } from "../assets/cards";
 export const useCardDeck = () => {
   const [deck, setDeck] = useState(CARDS);
   const [usedCards, setUsedCards] = useState([]);
-  // const {card:pickedCard, index}=getRandomCard(deck);
   const [currentCard, setCurrentCard] = useState({});
 
   const drawCard = () => {

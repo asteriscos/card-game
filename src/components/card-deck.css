@@ -1,0 +1,26 @@
+.card-deck-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-deck-top {
+  position: relative;
+  margin: 10px;
+}
+.card-deck-top:hover {
+  cursor: pointer;
+}
+.card-deck-top .card-deck-text {
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px black;
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}

@@ -1,0 +1,37 @@
+.game-status-container {
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+.game-status-container label {
+  font-weight: bold;
+}
+.game-status-container .stats {
+  display: flex;
+}
+.game-status-container .stats .stat {
+  margin: 0 10px;
+}
+.game-status-container .stats .stat label {
+  padding-right: 5px;
+}
+.game-status-container .effects-container,
+.game-status-container .items-container {
+  display: flex;
+  width: 100%;
+}
+.game-status-container .effects-container label,
+.game-status-container .items-container label {
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.game-status-container .effects-container ul,
+.game-status-container .items-container ul {
+  list-style: none;
+  flex-grow: 1;
+  padding: 0;
+  margin: 0;
+}
+.game-status-container .effects-container ul li {
+}

@@ -1,0 +1,13 @@
+.card-wrapper {
+    border: 1px solid #777;
+    border-radius: 7px;
+    background-color: #EEE;
+    width: 267px;
+    height: 373px;
+    color: #333;
+    margin: 10px;
+}
+.card-wrapper .title {
+}
+.card-wrapper .description {
+}

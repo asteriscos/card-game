@@ -1,5 +1,9 @@
+body{
+  background: url('./main-bg.jpg');
+}
 .App {
   text-align: center;
+  color: #FAFAFA;
 }
 
 .App-logo {
