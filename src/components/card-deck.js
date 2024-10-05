@@ -18,13 +18,14 @@ export const CardDeck = ({}) => {
     <div className="board-container">
       <div className="card-deck-container">
         <Card {...currentCard} />
-        <div className="card-deck-top" onClick={() => drawCard()}>
+        {/* <div className="card-deck-top" onClick={() => drawCard()}>
           <img src="./card-back.jpg" />
           <div className="card-deck-text">
             <span>Draw card</span>
           </div>
-        </div>
+        </div> */}
       </div>
+      <button onClick={() => drawCard()}>Draw card</button>
       <button onClick={() => resetDeck()}>Reset deck</button>
       {/* <UsedCards usedCards={usedCards} /> */}
     </div>
